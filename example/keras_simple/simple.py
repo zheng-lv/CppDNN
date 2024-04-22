@@ -1,5 +1,3 @@
-以下是添加了详细注释的代码：
-```python
 # 从 keras 库中导入 models 和 layers 模块
 from keras import models
 from keras import layers
@@ -34,4 +32,3 @@ print(network.predict(mnistdata))  # 打印模型对 mnistdata 的预测结果
 
 # 保存模型到 simple.h5 文件
 network.save('simple.h5')  # 
-```
